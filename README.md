@@ -18,6 +18,10 @@ NOTE: How to update Carthage dependecies:
 2. Install carthage: brew install carthage
 3. Update carthage dependecies in project folder: carthage update --platform iOS
 
+NOTE: How to store the files on the simulator:
+1. During the app start documents directory path is shown on the output 
+2. Copy the files to that folder
+
 ## Architecture
 
 ### Modified MVC
