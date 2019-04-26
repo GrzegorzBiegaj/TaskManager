@@ -408,14 +408,16 @@
 				TargetAttributes = {
 					26E0386920810C7600633D8A = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
 					};
 					26E0387D20810C7B00633D8A = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1020;
 						TestTargetID = 26E0386920810C7600633D8A;
 					};
 					26E0388820810C7B00633D8A = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
 						TestTargetID = 26E0386920810C7600633D8A;
 					};
 				};
@@ -695,7 +697,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = grzegorz.biegaj.TasksManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -717,7 +719,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = grzegorz.biegaj.TasksManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -739,7 +741,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.grzegorz.biegaj.TasksManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasksManager.app/TasksManager";
 			};
@@ -761,7 +763,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.grzegorz.biegaj.TasksManagerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasksManager.app/TasksManager";
 			};
@@ -781,7 +783,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.grzegorz.biegaj.TasksManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TasksManager;
 			};
@@ -801,7 +803,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.grzegorz.biegaj.TasksManagerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TasksManager;
 			};

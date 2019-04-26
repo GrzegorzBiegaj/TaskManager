@@ -51,7 +51,7 @@ class NotificationsController: NSObject, NotificationsControllerProtocol {
         content.title = title
         content.body = body
         content.categoryIdentifier = "category"
-        content.sound = UNNotificationSound.default()
+        content.sound = UNNotificationSound.default
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: delay, repeats: false)
         let request = UNNotificationRequest(identifier: "TaskManager", content: content, trigger: trigger)
         let center = UNUserNotificationCenter.current()

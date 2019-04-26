@@ -157,7 +157,7 @@ extension EditTaskViewController: UITableViewDataSource {
         }
     }
 
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             deleteRow(index: indexPath.row)
         } else if editingStyle == .insert {
@@ -171,7 +171,7 @@ extension EditTaskViewController: UITableViewDataSource {
 
 extension EditTaskViewController: UITableViewDelegate {
 
-    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
+    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
         guard indexPath.row == viewModel.keywordsData.count - 1 else { return .delete }
         return .insert
     }
